@@ -10,7 +10,7 @@ Experimental mathematicians need software to probe the sequence. Maple and Mathe
 
 * Software to explore [hailstone sequences](http://mathworld.wolfram.com/HailstoneNumber.html)
 * Results of prior calculations
-* Reference materials and links
+* [Reference materials and links](REFERENCE.md)
 
 Happy hunting! But remember this warning:
 
