@@ -11,3 +11,7 @@ Experimental mathematicians need software to probe the sequence. Maple and Mathe
 * Software to explore [hailstone sequences](http://mathworld.wolfram.com/HailstoneNumber.html)
 * Results of prior calculations
 * Reference materials and links
+
+Happy hunting! But remember this warning:
+
+![foo](https://imgs.xkcd.com/comics/collatz_conjecture.png)
