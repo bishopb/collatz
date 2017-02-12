@@ -1,6 +1,6 @@
 It's the simplest open problem in mathematics, so simple a child can understand it:
 
-> Pick a whole number bigger than zero. If it's odd, multiply by three and add one. If it's even, divide by two. Take the result and repeat the procedure. Can you find *any* number that *doesn't* stop at the number 1?
+> Pick a whole number bigger than zero. If it's odd, multiply by three and add one. If it's even, divide by two. Take the result and repeat the procedure. Do *all* whole numbers eventually reach the cycle 4, 2, 1?
 
 In 1937, Lothar Collatz conjectured that every whole number bigger than zero ends at one. But to this day, the proof of this conjecture has eluded the best mathematicians. Eminent mathematician Paul Erdős said, "Mathematics may not be ready for such problems." Perhaps that is true. Or, perhaps you, dear reader, can prove or disprove Collatz's conjecture. Only time will tell.
 
