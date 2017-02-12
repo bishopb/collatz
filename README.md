@@ -1,24 +1,13 @@
-# bishopb/collatz
-Software to investigate the 3n+1 problem, also known as the Collatz Conjecture or Syracuse Problem.
+It's the simplest open problem in mathematics, so simple a child can understand it:
 
-Start with a simple recurrence relationship:
+> Pick a whole number bigger than zero. If it's odd, multiply by three and add one. If it's even, divide by two. Take the result and repeat the procedure. Can you find *any* number that *doesn't* stop at the number 1?
 
-> Choose N<sub>0</sub> ∈ ℕ. Let N<sub>i+1</sub> ≡ { 3×N<sub>i</sub>+1 <i>if N<sub>i</sub> is odd</i>; N<sub>i</sub>÷2 <i>otherwise</i> }. 
+In 1937, Lothar Collatz conjectured that every whole number bigger than zero ends at one. But to this day, the proof of this conjecture has eluded the best mathematicians. Eminent mathematician Paul Erdős said, "Mathematics may not be ready for such problems." Perhaps that is true. Or, perhaps you, dear reader, can prove or disprove Collatz's conjecture. Only time will tell.
 
-For example:
+For now, experimental mathematicians have verified the conjecture for [every number up to 2<sup>60</sup>](http://www.ericr.nl/wondrous/). That's a ridiculously large number, but not a proof. There may yet be some ginormous number that disproves the conjecture. (Such a thing has happened before, like with the [Mertens conjecture](https://en.wikipedia.org/wiki/Mertens_conjecture).) That's where this repository comes in.
 
-   * N=1: 4, 2, 1
-   * N=2: 1
-   * N=3: 10, 5, 16, 8, 4, 2, 1
-   * N=4: 4, 2, 1
-   * N=5: 16, 8, 4, 2, 1
-   * N=6: 3, 10, 5, 16, 8, 4, 2, 1
-   
-You're probably starting to see a pattern: no matter the starting number, the recurrence relation *seems* to converge to 1. Despite years of investigation, no one has *proven* this convergence. Some have [claimed proof](http://www-personal.ksu.edu/~kconrow/newpapr2.pdf). Others have claimed it's [unprovable](https://www.youtube.com/watch?v=iALl05kUgy4). Even eminent mathematician Paul Erdős had a go and declared: "Mathematics is not yet ready for such problems."
+Experimental mathematicians need software to probe the sequence. Maple and Mathematica are good choices, considered [by some](http://www-personal.ksu.edu/~kconrow/newpapr2.pdf) *sine non qua* for work of this kind, but I prefer optimized algorithms. Here in you'll find:
 
-https://xkcd.com/710/
-
-
-
-
-var collatz = (n) => (n%2 : 3*n+1 : n/2);
+* Software to explore [hailstone sequences](http://mathworld.wolfram.com/HailstoneNumber.html)
+* Results of prior calculations
+* Reference materials and links
